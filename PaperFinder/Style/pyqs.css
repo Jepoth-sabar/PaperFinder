@@ -1,0 +1,118 @@
+body {
+    background-image: url("images/meetings-page-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#searchBar {
+    margin-top: 57px;
+    margin-bottom: 57px;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 41px;
+    width: 71vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 107px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.btn{
+    position: relative;
+    top: 166px;
+    left: 22px;
+}
+.navbar-brand{
+    font-weight: 750;
+}
+.nav-item{
+    font-weight: 750;
+    color: white;
+}
+.nav-item .nav-link{
+    color: white;
+    
+}
+
+#branchTitle{
+    color: white;
+}
+
+#semesterTitle{
+    color: white;
+}
+
+#subjectTitle{
+    color: white;
+
+}
+
+.list-group{
+    display: flex
+    ;
+        row-gap: 10px;
+}
+
+#homepageImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.d-btn{
+    position: absolute;
+    top: 4px;
+    left: 1196px;
+}
+  
+
+.home-2{
+    width: 99vw;
+    padding: 0px 77px;
+    overflow-x: scroll;
+}
+
+#pyq-img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.4);
+}
+
+.home-h1{
+    color: white;
+}
+#search-icon{
+    font-size: 1.8rem;
+    
+}
